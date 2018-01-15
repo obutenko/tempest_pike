@@ -1,4 +1,4 @@
-FROM rallyforge/rally:0.10.1
+FROM xrally/xrally-openstack:0.10.1
 MAINTAINER Oleksii Butenko <apbutenko@gmail.com>
 
 WORKDIR /var/lib
