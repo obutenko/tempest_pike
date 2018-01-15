@@ -10,3 +10,5 @@ WORKDIR /home/rally
 
 COPY tempest.conf /var/lib/tempest.conf
 COPY run-tempest.sh /usr/bin/run-tempest
+
+ENTRYPOINT ["run-tempest"]
